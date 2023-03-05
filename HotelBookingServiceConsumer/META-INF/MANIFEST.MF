@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HotelBookingServiceConsumer
+Bundle-SymbolicName: HotelBookingServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: hotelbookingserviceconsumer.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: HotelBookingServiceConsumer
+Import-Package: hotelbookingserviceproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
