@@ -142,7 +142,7 @@ public class ServiceProduceImpl implements HotelServiceProduce{
 			totalBillAmount = roomRate * noOfNights * discount;
 			System.out.println("");
 	
-			System.out.println("-------------------------------Airline Ticket Booking Summary-----------------------------------");
+			System.out.println("-------------------------------Hotel Booking Summary-----------------------------------");
 		    System.out.println(" ");
 	
 			System.out.println("Customer Name    : " + name );
@@ -190,7 +190,7 @@ public class ServiceProduceImpl implements HotelServiceProduce{
 			totalBillAmount = roomRate * noOfNights * discount;
 			System.out.println("");
 	
-			System.out.println("-------------------------------Airline Ticket Booking Summary-----------------------------------");
+			System.out.println("-------------------------------Hotel Booking Summary-----------------------------------");
 		    System.out.println(" ");
 	
 			System.out.println("Customer Name    : " + name );
